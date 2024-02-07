@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            background-size: 400% 400%;
+            animation: animatedBG 2s ease infinite;
+        }
+        @keyframes animatedBG{
+            0%{
+                background-position: 0%;
+            }
+            50%{
+                background-position: 100%;
+            }
+            100%{
+                background-position: 0%;
+            }
+        }
+        p{
+           
+            color: #eee;
+            text-transform: uppercase;
+        }
+        .para{
+            padding: 30px;
+            display: flex;
+            margin: 250px;
+            height: 200px;
+            width: 750px;
+            border: 2px solid black;
+            border-bottom: 5px solid #eee;
+            border-top: 5px solid salmon;
+            border-left: 5px solid aqua;
+            border-right: 5px solid chartreuse  ;
+        }
+    </style>
+</head>
+<body>
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem eum doloremque dolorem enim recusandae est maiores officiis! Officiis necessitatibus rerum voluptatibus assumenda nisi, libero qui maiores possimus voluptatem nostrum porro, quos quia voluptatum blanditiis? Similique, exercitationem numquam! Doloremque voluptatum nisi blanditiis. Placeat ipsum soluta aspernatur, harum officiis quo ex reprehenderit.
+        </p>
+    </div> 
+</body>
+</html>
